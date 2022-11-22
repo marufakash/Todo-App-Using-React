@@ -1,0 +1,28 @@
+.todo{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+.todo h3{
+    padding-bottom: 5px;
+    color: orange;
+    font-weight: 500;
+}
+.todo p{
+    opacity: 0.7;
+}
+.todo button{
+    font-size: 22px;
+    color: rgb(153, 15, 15);
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.todo:hover{
+    background-color: #111;
+}
